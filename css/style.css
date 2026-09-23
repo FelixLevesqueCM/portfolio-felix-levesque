@@ -1,17 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles Header */
+
 .header {
     margin: 0;
-    padding: 25px 10vw 25px 10vw;
+    padding: 0;
     background-color: #1A1C1D;
+    border-bottom: 10px solid #C00000;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 10px solid #C00000;
+    padding: 10px 0;
 }
 
 .logo-header {
     height: 50px;
     width: 50px;
-    margin: 0;
+    margin: 0 10px;
     padding: 0;
 }
 
@@ -19,13 +33,18 @@
     display: inline-block;
     margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
 }
 
 .name-header {
     display: inline-block;
     margin: 0;
+    margin-right: 20px;
     padding: 0;
     color: #C00000;
+    font-size: 32px;
+    font-family: 'Pixelify Sans';
 }
 
 .bar-header {
@@ -33,16 +52,66 @@
     margin: 0;
     padding: 0;
     background-color: #C00000;
+    height: 10px;
+    width: 300px;
 }
 
 .nav-header {
     display: inline-block;
     margin: 0;
     padding: 0;
+    min-width: 400px;
 }
 
 .link-header {
     display: inline-block;
     color: #ffffff;
     text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+/* Styles Hero */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    background-color: #041448;
+    height: 700px;
+}
+
+.logo-bg-hero {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    max-height: 700px;
+}
+
+.hero-container {
+    max-width: 1200px;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-content {
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+}
+
+.hero-projects {
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+}
+
+.hero-bg-bar {
+    background-color: #0E0E0F;
+    z-index: 2;
+    height: 700px;
+    width: 300px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
