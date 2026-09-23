@@ -115,3 +115,42 @@ body {
     left: 50%;
     transform: translateX(-50%);
 }
+
+/* Styles Projets */
+
+.projects {
+    background-color: #0E0E0F;
+}
+
+.projects-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.projects-title {
+    font-family: 'Pixelify Sans';
+    font-size: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects-bar {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    height: 10px;
+    width: 600px;
+}
+
+.projets-title-projets {
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.projects-title-01 {
+    color: #C00000;
+    margin-left: 20px;
+}
