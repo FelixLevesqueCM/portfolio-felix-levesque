@@ -1,18 +1,22 @@
 async function loadProjects() {
-  const response = await fetch('data/projects.json');
+  const response = await fetch('./data/projects.json');
   const projects = await response.json();
+  if (!response.ok) {
+    throw new Error(`Impossible de charger les projets (${response.status})`);
+  }
   return projects;
 }
 
 function createProjectCard(project) {
   return `
-    <article class="project-card">
-      <img class="project-card__image" src="${project.image}" alt="${project.title}">
-      <div class="project-card__content">
-        <h3 class="project-card__title">${project.title}</h3>
-        <p class="project-card__meta">${project.category} · ${project.year}</p>
-        <p class="project-card__description">${project.description}</p>
+    <article class="projet-item">
+      <img class="card-image" src="${project.image}">
+      <div class="card-info">
+        <h3 class="card-title">${project.title}</h3>
+        <p class="card-type">${project.type}</p>
+        <p class="card-year">${project.year}</p>
       </div>
+      <button class="card-button">></button>
     </article>
   `;
 }
@@ -23,7 +27,7 @@ async function init() {
   projects.forEach((project) => {
     console.log(project.title);
   });
-  const grid = document.querySelector('.projects__grid');
+  const grid = document.querySelector('.projets-list');
   projects.forEach(project => {
     grid.innerHTML += createProjectCard(project);
   });

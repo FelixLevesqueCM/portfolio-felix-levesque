@@ -1,0 +1,52 @@
+[
+    {
+        "id": "dark-steel-part-1",
+        "title": "Dark Steel partie 1",
+        "type": "Audio, 3D",
+        "year": "2025",
+        "image": "assets/images/dark-steel-p1.png",
+        "video": "",
+        "gallery": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+
+    {
+        "id": "dark-steel-part-2",
+        "title": "Dark Steel partie 2",
+        "type": "Audio, Design, 3D",
+        "year": "2025",
+        "image": "assets/images/dark-steel-p2.png",
+        "video": "",
+        "gallery": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "3dcharacter",
+        "title": "Personnage 3D",
+        "type": "3D",
+        "year": "2024",
+        "image": "assets/images/3dcharacter.jpg",
+        "video": "",
+        "gallery": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    }
+]
+
