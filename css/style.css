@@ -39,8 +39,7 @@ body {
 
 .name-header {
     display: inline-block;
-    margin: 0;
-    margin-right: 20px;
+    margin: 0 20px 0 20px;
     padding: 0;
     color: #C00000;
     font-size: 32px;
@@ -54,7 +53,7 @@ body {
     padding: 0;
     background-color: #C00000;
     height: 10px;
-    width: 300px;
+    width: 100%;
 }
 
 .nav-header {
@@ -93,17 +92,19 @@ body {
     max-width: 1200px;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: space-around;
 }
 
 .hero-content {
-    display: inline-block;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     z-index: 3;
 }
 
 .hero-projects {
-    display: inline-block;
-    position: relative;
+    display: flex;
     z-index: 3;
 }
 
@@ -112,9 +113,9 @@ body {
     z-index: 2;
     height: 700px;
     width: 300px;
-    position: relative;
+    /*position: relative;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%);*/
 }
 
 /* Styles Projets */
@@ -144,7 +145,7 @@ body {
     padding: 0;
     background-color: #ffffff;
     height: 10px;
-    width: 600px;
+    width: 100%;
 }
 
 .projets-title-projets {
@@ -157,6 +158,33 @@ body {
     color: #C00000;
     margin-left: 20px;
     font-weight: normal;
+}
+
+.projects-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    padding-bottom: 60px;
+}
+
+.projects-bar-bottom {
+    display: inline-block;
+    margin: 0;
+    padding: 0 20px 0 20px;
+    background-color: #ffffff;
+    height: 10px;
+    width: 70%;
+}
+
+.projects-bar-small {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    height: 10px;
+    width: 10%;
 }
 
 /* Styles cartes */
@@ -198,7 +226,7 @@ body {
 .card-title {
     font-family: 'Pixelify Sans';
     color: #ffffff;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: normal;
     margin: 0;
 }
@@ -206,13 +234,78 @@ body {
 .card-type {
     font-family: 'IBM Plex Mono', monospace;
     color: #C00000;
-    font-size: 24px;
-    margin: 0;
+    font-size: 20px;
+    margin: 10px 0 10px 0;
 }
 
 .card-year {
     font-family: 'IBM Plex Mono', monospace;
     color: #808080;
-    font-size: 24px;
+    font-size: 20px;
     margin: 0;
+}
+
+/* styles About */
+
+.about {
+    background-color:#C00000;
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #0E0E0F;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-left {
+    padding: 20px;
+    width: 40%;
+}
+
+.about-right {
+    padding: 20px;
+    width: 60%;
+}
+
+.about-title-container {
+    font-family: 'Pixelify Sans';
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.about-title-02 {
+    color: #ffffff;
+    margin-right: 20px;
+    font-weight: normal;
+    display: inline-block;
+}
+
+.about-title {
+    color: #182B66;
+    margin-left: 20px;
+    font-weight: normal;
+    display: inline-block;
+}
+
+.about-img {
+    aspect-ratio: 1/1;
+    width: 100%;
+}
+
+.about-bar {
+    height: 10px;
+    width: 100%;
+    background-color:#041448;
+}
+
+.about-text {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 20px 0 20px 0;
+    padding: 30px;
+    background-color: #041448;
 }
