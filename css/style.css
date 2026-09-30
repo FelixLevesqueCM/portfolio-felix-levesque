@@ -309,3 +309,82 @@ body {
     padding: 30px;
     background-color: #041448;
 }
+
+/* Styles Contact */
+
+.contact {
+    background-color: #ffffff;
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EEEEEE;
+}
+
+.contact-bar {
+    width: 10px;
+    height: 235px;
+    background-color: #0E0E0F;
+    display: inline-block;
+    margin: 20px;
+}
+
+.contact-title-container {
+    display: inline-block;
+    padding: 20px;
+    font-family: 'Pixelify Sans';
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.contact-title-03 {
+    color: #0E0E0F;
+    font-weight: normal;
+}
+
+.contact-title {
+    color: #C00000;
+    font-weight: normal;
+}
+
+.contact-content {
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    background-color: #041448;
+    width: 75%;
+}
+
+/* Styles footer */
+
+.footer {
+    background-color: #0E0E0F;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo {
+    height: 60px;
+    width: 60px;
+    margin: 30px;
+    padding: 0;
+}
+
+.nav-footer {
+    display: inline-block;
+}
+
+.link-footer {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+    margin: 0 20px;
+}
