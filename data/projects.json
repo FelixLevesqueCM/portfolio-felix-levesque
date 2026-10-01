@@ -6,7 +6,7 @@
         "year": "2025",
         "image": "assets/images/dark-steel-p1.png",
         "video": "",
-        "description": "",
+        "description": "Dark Steel est un montage visuel et sonore qui nous transporte au milieu d’une structure industrielle abandonnée, infinie et où il y à des phénomènes inexplicables qui se produisent. Ce projet à été réalisé comme projet de fin de session dans le cadre des cours d’animation 3D, de traitement audiovisuel et d’audio 2. Le but était de créer un univers immersif et abstrait qui fait ressentir des émotions spécifiques aux spectateurs. Cette œuvre à donc pour but de faire ressentir des sentiments de solitude, de peur, de crainte et de désespoir. Cette première partie du projet est un court montage de une minute qui à été réalisé pour le cours d’animation 3D avec une ambiance sonore réalisée dans le cours d’audio 2.",
         "gallery": [
             "",
             "",
@@ -24,7 +24,7 @@
         "year": "2025",
         "image": "assets/images/dark-steel-p2.png",
         "video": "",
-        "description": "",
+        "description": "Dark Steel est un montage visuel et sonore qui nous transporte au milieu d’une structure industrielle abandonnée, infinie et où il y à des phénomènes inexplicables qui se produisent. Ce projet à été réalisé comme projet de fin de session dans le cadre des cours d’animation 3D, de traitement audiovisuel et d’audio 2. Le but était de créer un univers immersif et abstrait qui fait ressentir des émotions spécifiques aux spectateurs. Cette œuvre à donc pour but de faire ressentir des sentiments de solitude, de peur, de crainte et de désespoir. Cette deuxième partie est une performance visuelle et sonore qui à été performée le jour de la présentation des projets dans le cadre des cours de traitement audiovisuel et d’audio 2.",
         "gallery": [
             "",
             "",
@@ -42,7 +42,7 @@
         "year": "2024",
         "image": "assets/images/3dcharacter.jpg",
         "video": "",
-        "description": "",
+        "description": "Ce personnage 3D à été créé dans le cadre du cours de modélisation 3D. Le projet final était de conceptualiser un personnage, le modéliser et lui donner un squelette pour faire des rendus avec des poses différentes. Le concept de ce personnage est qu’il est une sorte d’entité extraterrestre puissante qui donne l’impression d’être le vilain principal dans un monde de science-fiction.",
         "gallery": [
             "",
             "",
@@ -60,7 +60,7 @@
         "year": "2023",
         "image": "assets/images/soleil-noir.jpg",
         "video": "",
-        "description": "",
+        "description": "Soleil noir est un projet de design graphique qui consiste d’environements postapocalyptiques ou on peut trouver des montres terrifiants et surnaturels. Ce projet à été réalisé dans le cadre du cours d’illustration numérique comme projet de fin de session. Le but était de créer huit images qui pourraient êtres utilisées dans un générique pour une série télévisée. Ma direction artistique avec ces images était de créer des créatures surnaturelles et de les cacher dans l’ombre pour donner l’impression qu’on se cache de ces monstres, mais que certains de ces monstres nous ont trouvés. J’ai utilisé des gradient maps pour donner la même palette de couleurs à toutes les images et j’ai dessiné les monstres en silhouette seulement pour laisser l’imagination du spectateur deviner à quoi les montres ressemblent à la lumière du jour.",
         "gallery": [
             "",
             "",
@@ -76,9 +76,9 @@
         "title": "Casques 3D",
         "type": "3D",
         "year": "2024",
-        "image": "assets/images/3dcharacter.jpg",
+        "image": "assets/images/3dhelmets.png",
         "video": "",
-        "description": "",
+        "description": "Ces casques de chevaliers étaient ma contribution à un travail d’équipe où l'on devait créer un environnement en 3D. Ce projet à été conçu dans le cours de modélisation 3D et le but de ce projet était de créer un environnement 3D unique. Notre équipe a décidé de créer un environnement médiéval qui se transforme en monde de jeu vidéo rétro. Je me suis occupé de concevoir deux casques de type différent, l’un d’eux étant réaliste et l’autre étant transformé en modèle low-poly pixellisé. Les modèles ont été conçus dans Maya et les textures dans Photoshop.",
         "gallery": [
             "",
             "",
@@ -96,7 +96,7 @@
         "year": "2023",
         "image": "assets/images/autoportrait.jpg",
         "video": "",
-        "description": "",
+        "description": "L’Autoportrait est une œuvre qui consiste de six illustrations de choses qui me représentent et d’une signature dans le même style que les illustrations. Ce projet à été créé dans le cadre du cours d’illustration numérique. Le but de ce projet était de recréer le style d’un artiste de design graphique avec des illustrations en vectoriel. Le contenu des images devait être des choses qui nous représentent afin de mieux connaître nos camarades de classe lors de la première session du programme de technique d’intégration multimédia. J’ai décidé de représenter mon appréciation pour plusieurs choses que j’aime comme les jeux vidéos, les films, l’espace et l’hiver.",
         "gallery": [
             "",
             "",
@@ -114,7 +114,7 @@
         "year": "2025",
         "image": "assets/images/soul-knight.png",
         "video": "",
-        "description": "",
+        "description": "Soul Knight est un court jeu de plateforme en 2D où un chevalier doit traverser plusieurs niveaux afin de sauver la princesse. Ce projet à été réalisé comme projet de fin de session dans le cadre du cours d'interactivité ludique. Le but était de créer un jeu vidéo complet en s’assurant de concevoir une expérience agréable, amusante et sans problèmes techniques. Ce jeu est basé sur un tutoriel de jeu de plateforme en 2D sur Godot avec l’aide d’assets gratuits, mais plusieurs aspects comme les animations, les systèmes et les assets visuels ont été modifiés pour être conformes  à ma vision du jeu. De plus, plusieurs nouvelles mécaniques ont été ajoutées comme des objets qui nous permettent de double jump lorsqu’on les touchent ou la possibilité de faire une roulade pour éviter les ennemis.",
         "gallery": [
             "",
             "",
@@ -132,7 +132,7 @@
         "year": "2025",
         "image": "assets/images/pixar-lamp.png",
         "video": "",
-        "description": "",
+        "description": "L’animation Pixar lamp est un exercice d’animation 3D où l’animation iconique de la lampe qui écrase le “i” dans “Pixar”. Cette animation était un exercice dans le cadre du cours d’animation 3D. Le but était de recréer cette animation en créant nos propres assets pour se pratiquer à utiliser des rigs et animer plusieurs objets en synchronisation avec la piste sonore.",
         "gallery": [
             "",
             "",
