@@ -389,3 +389,28 @@ body {
     font-size: 20px;
     margin: 0 20px;
 }
+
+/* styles pages projets */
+
+/* styles hero pages projets */
+
+.project-page-hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+}
+
+/* styles images pages projets */
+
+.project-page-images {
+    background-color: #0E0E0F;
+}
+
+.project-page-images-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
