@@ -16,7 +16,7 @@ function createProjectCard(project) {
         <p class="card-type">${project.type}</p>
         <p class="card-year">${project.year}</p>
       </div>
-      <button class="card-button">></button>
+      <button class="card-button" onclick="window.location.href='${project.link}'">></button>
     </article>
   `;
 }
