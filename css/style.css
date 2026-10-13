@@ -221,6 +221,10 @@ body {
 
 .projet-item {
     background-color: #041448;
+    background-image: url(../assets/images/deco.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 75% 0%;
     margin: 15px;
     padding: 0;
     display: flex;
@@ -313,14 +317,14 @@ body {
 
 .about-title-02 {
     color: #ffffff;
-    margin-right: 20px;
+    margin: 0 20px 10px 0;
     font-weight: normal;
     display: inline-block;
 }
 
 .about-title {
     color: #182B66;
-    margin-left: 20px;
+    margin: 0 0 10px 20px;
     font-weight: normal;
     display: inline-block;
 }
@@ -329,6 +333,7 @@ body {
     aspect-ratio: 1/1;
     width: 85%;
     background-color: #EEEEEE;
+    padding: 30px;
 }
 
 .about-bar {
@@ -388,11 +393,30 @@ body {
 }
 
 .contact-content {
-    display: inline-block;
+    display: flex;
+    align-items: center;
     padding: 20px;
     margin: 20px;
     background-color: #041448;
+    background-image: url(../assets/images/deco.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 75% 0%;
     width: 75%;
+    color: #ffffff;
+    font-family: 'Pixelify Sans';
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.contact-email {
+    color: #C00000;
+    text-decoration: none;
+}
+
+.contact-email:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 /* Styles footer */
@@ -454,6 +478,10 @@ body {
 
 .project-hero-box {
     background-color: #041448;
+    background-image: url(../assets/images/deco.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 95% 75%;
     padding: 0;
     display: flex;
 }
