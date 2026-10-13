@@ -20,12 +20,12 @@ async function showProject() {
 function createProjectHeroImg(project) {
   return `
     <h1 class="project-title">${project.title}</h1>
-    <div>
-      <img class="project-img" src="${project.thumbnail}">à
-      <div>
-        <p class="project-info">${project.type}</p>
-        <p class="project-info">${project.prog}</p>
-        <p class="project-info">${project.year}</p>
+    <div class="project-hero-box">
+      <img class="project-img" src="${project.thumbnail}">
+      <div class="project-hero-info-container">
+        <p class="project-info">Type: ${project.type}</p>
+        <p class="project-info">Logiciels: ${project.prog}</p>
+        <p class="project-info">Année: ${project.year}</p>
       </div>
     </div>
   `;
@@ -34,9 +34,9 @@ function createProjectHeroImg(project) {
 function createProjectHeroVideo(project) {
   return `
     <h1 class="project-title">${project.title}</h1>
-    <div>
-      <iframe width="560" height="315" src="${project.thumbnail}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      <div>
+    <div class="project-hero-box">
+      <iframe class="project-img" src="${project.thumbnail}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div class="project-hero-info-container">
         <p class="project-info">${project.type}</p>
         <p class="project-info">${project.prog}</p>
         <p class="project-info">${project.year}</p>
@@ -47,11 +47,16 @@ function createProjectHeroVideo(project) {
 
 function createProjectGallery(project) {
   return `
-    <p>
+    <p class="project-description">
     ${project.description}
     </p>
-    <div>
-      <img class="project-gallery-img" src="">
+    <div class="project-gallery">
+      <img class="project-gallery-img" src="${project.gallery[0]}">
+      <img class="project-gallery-img" src="${project.gallery[1]}">
+      <img class="project-gallery-img" src="${project.gallery[2]}">
+      <img class="project-gallery-img" src="${project.gallery[3]}">
+      <img class="project-gallery-img" src="${project.gallery[4]}">
+      <img class="project-gallery-img" src="${project.gallery[5]}">
     </div>
   `;
 }
