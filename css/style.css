@@ -98,7 +98,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .hero-content {
@@ -116,11 +116,36 @@ body {
 .hero-bg-bar {
     background-color: #0E0E0F;
     z-index: 2;
+    padding-left: -40px;
+    padding-right: -40px;
     height: 700px;
     width: 300px;
     /*position: relative;
     left: 50%;
     transform: translateX(-50%);*/
+}
+
+.hero-bar {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: #C00000;
+    height: 10px;
+    width: 100%;
+}
+
+.hero-felix {
+    font-family: 'Pixelify Sans';
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 64px;
+}
+
+.hero-levesque {
+    font-family: 'Pixelify Sans';
+    font-weight: normal;
+    color: #C00000;
+    font-size: 64px;
 }
 
 /* Styles Projets */
