@@ -47,7 +47,12 @@ function createProjectHeroVideo(project) {
 
 function createProjectGallery(project) {
   return `
-    
+    <p>
+    ${project.description}
+    </p>
+    <div>
+      <img class="project-gallery-img" src="">
+    </div>
   `;
 }
 
