@@ -4,6 +4,7 @@ async function showProject() {
   const projects = await loadProjects();
   const project = projects.find(project => project.id === projectId);
   console.log(project.video);
+  // if statement pour vérifier si le projet contient une vidéo ou non
   if (project.video == 1) {
     const hero = document.querySelector('.project-page-hero-container');
     hero.innerHTML += createProjectHeroVideo(project);
@@ -13,15 +14,15 @@ async function showProject() {
   }
   const gallery = document.querySelector('.project-page-images-container');
   gallery.innerHTML += createProjectGallery(project);
-
-  
 }
+
+//fonction pour générer le haut de la page d'un projet sans vidéo
 
 function createProjectHeroImg(project) {
   return `
     <h1 class="project-title">${project.title}</h1>
     <div class="project-hero-box">
-      <img class="project-img" src="${project.thumbnail}">
+      <img class="project-img" src="${project.thumbnail}" alt="Projet présenté">
       <div class="project-hero-info-container">
         <p class="project-info">Type: ${project.type}</p>
         <p class="project-info">Logiciels: ${project.prog}</p>
@@ -30,6 +31,8 @@ function createProjectHeroImg(project) {
     </div>
   `;
 }
+
+//fonction pour générer le haut de la page d'un projet avec vidéo
 
 function createProjectHeroVideo(project) {
   return `
@@ -45,18 +48,20 @@ function createProjectHeroVideo(project) {
   `;
 }
 
+//fonction pour afficher la gallerie d'images
+
 function createProjectGallery(project) {
   return `
     <p class="project-description">
     ${project.description}
     </p>
     <div class="project-gallery">
-      <img class="project-gallery-img" src="${project.gallery[0]}">
-      <img class="project-gallery-img" src="${project.gallery[1]}">
-      <img class="project-gallery-img" src="${project.gallery[2]}">
-      <img class="project-gallery-img" src="${project.gallery[3]}">
-      <img class="project-gallery-img" src="${project.gallery[4]}">
-      <img class="project-gallery-img" src="${project.gallery[5]}">
+      <img class="project-gallery-img" src="${project.gallery[0]}" alt="image du projet">
+      <img class="project-gallery-img" src="${project.gallery[1]}" alt="image du projet">
+      <img class="project-gallery-img" src="${project.gallery[2]}" alt="image du projet">
+      <img class="project-gallery-img" src="${project.gallery[3]}" alt="image du projet">
+      <img class="project-gallery-img" src="${project.gallery[4]}" alt="image du projet">
+      <img class="project-gallery-img" src="${project.gallery[5]}" alt="image du projet">
     </div>
   `;
 }

@@ -7,10 +7,12 @@ async function loadProjects() {
   return projects;
 }
 
+//fonction pour générer la liste de projets
+
 function createProjectCard(project) {
   return `
     <article class="projet-item">
-      <img class="card-image" src="${project.image}">
+      <img class="card-image" src="${project.image}" alt="thumbnail de projet">
       <div class="card-info">
         <h3 class="card-title">${project.title}</h3>
         <p class="card-type">${project.type}</p>
