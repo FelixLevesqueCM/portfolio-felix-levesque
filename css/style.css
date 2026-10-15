@@ -13,7 +13,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #1A1C1D;
-    border-bottom: 10px solid #C00000;
+    border-bottom: 5px solid #C00000;
 }
 
 .header-container {
@@ -155,6 +155,11 @@ body {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 20px;
     font-weight: normal;
+}
+
+.video-hero {
+    width: 560px;
+    height: 315px;
 }
 
 /* Styles Projets */
@@ -332,7 +337,7 @@ body {
 }
 
 .about-title {
-    color: #182B66;
+    color: #c50000;
     margin: 0 0 10px 20px;
     font-weight: normal;
     display: inline-block;
@@ -547,4 +552,99 @@ body {
     aspect-ratio: 16 / 9;
     width: 90%;
     margin: 20px auto;
+}
+
+/* responsive */
+
+@media (max-width: 1000px) {
+    
+    .name-header {
+        display: none;
+    }
+    
+    .bar-header {
+        display: none;
+    }
+
+    /* hero */
+    .hero {
+        height: auto;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .hero-content {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .video-hero {
+        aspect-ratio: 16 / 9;
+        width: 100vw;
+        height: auto;
+    }
+
+    .hero-projects {
+        margin: 0;
+    }
+
+    /* liste de projets */
+    .projets-title-projets {
+        margin: 20px;
+    }
+
+    .projects-title-01 {
+        margin: 20px;
+    }
+
+    .projet-item {
+        flex-direction: column;
+    }
+
+    .card-type {
+        display: none;
+    }
+
+    .card-year {
+        display: none;
+    }
+
+    .card-title {
+        font-size: 24px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .card-button {
+        margin: 0 0 10px 0;
+    }
+
+    .card-image {
+        width: 100%;
+    }
+
+    /* about */
+    .about-text {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .about-title {
+        margin: 0 0 10px 0;
+    }
+    
+    /* contact */
+    .contact-content {
+        flex-direction: column;
+        font-size: 24px;
+        padding: 0;
+    }
+
+    .contact-title-container {
+        font-size: 24px;
+    }
 }
