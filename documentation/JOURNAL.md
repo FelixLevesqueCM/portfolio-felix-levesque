@@ -42,4 +42,30 @@ J'ai utilisé l'IA pour explorer le design et la mise en page du portfolio.
 
 ---
 
+## Bloc 2 
 
+**Qu'est-ce que j'ai accompli depuis le dernier bloc?:**
+
+J'ai complété mon site web de portfolio.
+
+**Quelle a été ma principale difficulté et comment je l'ai surmontée?:**
+
+Je ne me rapellait pas vraiment comment coder en Java script et je n'avais aucune idée comment faire la fonction pour charger les pages de projets individuelles, mais en regardant les notes de cours et en réutilisant des parties de la fonction qui crée la liste de projets, je suis arrivé à créer une fonction qui marche.
+
+**Qu'est-ce que j'ai appris que je ne savais pas avant?:**
+
+J'ai appris à utiliser un fichier JSON pour charger du contenu dynamiquement.
+
+**Quelle est ma prochaine étape concrète?:**
+
+Pérsenter mon portfolio.
+
+**Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris?:**
+
+Je n'ai pas utiliser d'intelligence artificielle.
+
+
+### Utilisation de l'IA
+Je n'ai pas utiliser d'intelligence artificielle.
+
+---
