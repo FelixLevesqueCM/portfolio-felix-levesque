@@ -584,7 +584,7 @@ body {
 
     .video-hero {
         aspect-ratio: 16 / 9;
-        width: 100vw;
+        width: 90vw;
         height: auto;
     }
 
@@ -646,5 +646,41 @@ body {
 
     .contact-title-container {
         font-size: 24px;
+        padding: 0 0 0 20px;
+    }
+
+    .contact-bar {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+
+    /* header */
+    .link-header {
+        margin: 0 10px;
+    }
+
+    /* contact */
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-title {
+        margin: 0;
+    }
+
+    .contact-title-03 {
+        margin: 15px 0;
+    }
+
+    .contact-content {
+        padding: 20px;
+    }
+
+    .contact-title-container {
+        padding: 0;
     }
 }
