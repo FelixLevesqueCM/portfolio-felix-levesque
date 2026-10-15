@@ -652,6 +652,11 @@ body {
     .contact-bar {
         display: none;
     }
+
+    /* gallerie */
+    .project-gallery {
+        grid-template-columns: auto;
+    }
 }
 
 @media (max-width: 500px) {
