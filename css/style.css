@@ -510,6 +510,7 @@ body {
 .project-img {
     aspect-ratio: 16 / 9;
     width: 60%;
+    height: auto;
 }
 
 .project-info {
