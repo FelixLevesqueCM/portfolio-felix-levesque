@@ -56,9 +56,9 @@ Je ne me rapellait pas vraiment comment coder en Java script et je n'avais aucun
 
 J'ai appris à utiliser un fichier JSON pour charger du contenu dynamiquement.
 
-**Quelle est ma prochaine étape concrète?:**
+**Si j'aivais une semaine de plus, qu'est-ce que je changerai?:**
 
-Pérsenter mon portfolio.
+J'intégrerais des animations.
 
 **Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris?:**
 
